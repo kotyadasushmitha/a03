@@ -1,0 +1,120 @@
+article{
+background-color:#F4ECF7;
+color:black;
+font-style : italic;
+font-size : 100%;
+}
+
+header{
+background-color:gold;
+font-family:bold;
+font-size:100%;
+text-align:center;
+}
+body{
+	background-color:#F9E79F;
+font-family:bold;
+font-size:15px;
+text-align: left;
+border-style: ridge;
+	
+}
+.Navbar
+{
+    padding: 20px;
+    font-family:italic;
+	font-weight:bold;
+}
+ul.Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.Navbar {
+    float: left;
+    border-right:1px solid #bbb;
+}
+footer{
+background-color : #85C1E9;
+font-family:bold;
+font-size:100%;
+text-align:center;
+}
+#past-section{
+color:black;
+font-family:blue; 
+}
+#future-section{
+color:red;
+font-family:blue;
+}
+#present-section{
+    color:red;
+    font-family:blue;
+    }
+.data-section{
+	color:red;
+font-family:blue;
+}
+.section-header{
+color:orange;
+font-family:blue;
+}
+.aside-header{
+color:black;
+font-family:blue;
+text-align:center;
+}
+#active {
+    background-color: #4CAF50;
+}
+.center
+{
+	text-align:center;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+table{
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: silver;
+}
+#subBtn{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+}
+#taxBtn{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+}
+#gtotalBtn{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+}
+#opers{
+	text-align:center;
+}
+#oper{
+	text-align:center;
+	background-color: #CCD1D1;
+}
+#pattern{
+	background-size: 100%;
+    background-image: url("balls.jpeg");
+    background-repeat: unset;
+}
+
+

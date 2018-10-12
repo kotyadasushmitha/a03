@@ -50,14 +50,18 @@ app.get('/', function (req, res) {
   res.render('index.ejs')
 })
 
-// 4 http GET /tic-tac-toe
-app.get('/tic-tac-toe', function (req, res) {
-  res.render('tic-tac-toe.ejs')
+// 4 http GET /calculation
+app.get('/calculation', function (req, res) {
+  res.render('calculation.ejs')
+})
+// 
+app.get('/Thanks', function (req, res) {
+  res.render('Thanks.ejs')
 })
 
 // 4 http GET /about
-app.get('/about', function (req, res) {
-  res.render('about.ejs')
+app.get('/index', function (req, res) {
+  res.render('index.ejs')
 })
 
 // 4 http GET /contact

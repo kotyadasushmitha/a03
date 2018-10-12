@@ -1,0 +1,45 @@
+<% include header %>
+
+<html lang="en">
+
+<head>
+
+    <title>javascript: calculate two numbers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sushmitha.css">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+        
+    <section id="oper">
+        <h1> Mathematical Calculations</h1><br>
+
+        <h4>Enter Value1:<input type="text" id="n1" /><br><br><br>
+            Enter Value2:<input type="text" id="n2" /><br><br><br>
+            Enter the operators in order to perform Addition/Substraction/Multiplication/Division :
+            <select id="operators">
+                <option value="+">Addition(+)</option>
+                <option value="-">Substraction(-)</option>
+                <option value="/">Division(/)</option>
+                <option value="X">Multiplication(X)</option>
+                <option value="%">Modulus(%)</option>
+            </select><br><br><br>
+            Calculating the values:
+            <input type="button" value="         submit         " onclick="calc()"><br><br><br>
+            Desired Output:
+            <input type="text" id="result" />
+            <script src="js/calculation.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"-->
+  <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"-->
+        </h4>
+    </section>
+</body>
+
+</html>
+<% include footer %>
