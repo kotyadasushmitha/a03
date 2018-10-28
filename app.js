@@ -118,7 +118,8 @@ app.get(function (req, res) {
 
 // Listen for an application request on designated port
 app.listen(port, function () {
-  console.log('\nWeb app started and listening on http://localhost:' + port + '.')
-  console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
-  console.log('\nKeep this open while serving, and use CTRL-C to quit.')
+  console.log('\nWeb app started and listening on http://localhost:8081')
+  //console.log('\nWeb app started and listening on http://localhost:' + port + '.')
+  //console.log('\nLogs will be sent to this terminal and ' + logfile + '.')
+  //console.log('\nKeep this open while serving, and use CTRL-C to quit.')
 })
