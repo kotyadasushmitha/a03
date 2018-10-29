@@ -12,30 +12,30 @@ function calc(n1,n2,oper)
                 
                 if(oper === '+')
                 {
-                    //document.getElementById('result').value = n1+n2;
+                    document.getElementById('result').value = n1+n2;
                     return n1+n2;
                 }
                 
                 if(oper === '-')
                 {
-                    //document.getElementById('result').value = n1-n2;
+                    document.getElementById('result').value = n1-n2;
                     return n1-n2;
                 }
                 
                 if(oper === '/')
                 {
-                    //document.getElementById('result').value = n1/n2;
+                    document.getElementById('result').value = n1/n2;
                     return n1/n2;
                 }
                 
                 if(oper === 'X')
                 {
-                    //document.getElementById('result').value = n1*n2;
+                    document.getElementById('result').value = n1*n2;
                     return n1*n2;
                 }
 				if(oper === '%')
                 {
-                    //document.getElementById('result').value = n1%n2;
+                    document.getElementById('result').value = n1%n2;
                     return n1%n2;
                 }
             }
